@@ -1,6 +1,7 @@
 export interface Review {
     id?: number;
     book: number;
+    user: string;
     rating: number;
     comment: string;
     timestamp?: string;
